@@ -25,7 +25,7 @@ likeButtons.addEventListener('click', () => {
   .catch(error => {
     modalHide.className = ""
     modalHide.innerText = error;
-    setTimeout( () => {modalHide.className = "hidden"}, 4500)
+    setTimeout( () => {modalHide.className = "hidden"}, 3000)
   });
 });
 });
